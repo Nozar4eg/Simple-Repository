@@ -45,6 +45,7 @@
           </li>
         </ul>
       </section>
+      <!------------------------------------ TABLE ---------------------------------------->
       <section>
         <div>
           <h2>Choose your plan</h2>
@@ -52,9 +53,9 @@
         <table>
           <tr>
             <th>Plan</th>
-            <td>Basic</td>
-            <td>Standard</td>
-            <td>Premium</td>
+            <th>Basic</th>
+            <th>Standard</th>
+            <th>Premium</th>
           </tr>
           <tr>
             <th>Price</th>
@@ -135,6 +136,104 @@
             </td>
           </tr>
         </table>
+      </section>
+      <!----------------------------------------------- FORM --------------------------------------------------->
+      <section>
+        <div>
+          <h2>Get started absolutely free</h2>
+        </div>
+        <form>
+          <div>
+            <h3>Tell us about yourself</h3>
+          </div>
+          <!------------------------- FIRST FIELDSET ----------------------------->
+          <fieldset>
+            <div>
+              <label for="name">Full name <span>*</span></label>
+              <br />
+              <input type="text" name="name" id="name" />
+            </div>
+
+            <div>
+              <label for="email">Email <span>*</span></label>
+              <br />
+              <input type="text" name="email" id="email" />
+            </div>
+
+            <div>
+              <label for="phoneNumber">Phone number <span>*</span></label>
+              <br />
+              <input type="text" name="phoneNumber" id="phoneNumber" />
+            </div>
+
+            <div>
+              <label for="date">Date of birth <span>*</span></label>
+              <br />
+              <input type="text" name="date" id="date" />
+            </div>
+
+            <div>
+              <label for="personalId">Personal ID <span>*</span></label>
+              <br />
+              <input type="text" name="personalId" id="personalId" />
+            </div>
+          </fieldset>
+          <!------------------------- SECOND FIELDSET ----------------------------->
+          <fieldset>
+            <div>
+              <p>What kind of traveler are you?</p>
+            </div>
+            <select name="traveler" id="traveler">
+              <option value="business">Business</option>
+              <option value="solo">Solo</option>
+              <option value="family">Family</option>
+              <option value="group">Group</option>
+            </select>
+
+            <div>
+              <p>What is important for you?</p>
+            </div>
+            <input type="checkbox" name="comfort" id="comfort" />
+            <label for="comfort">Comfort (hotel, food, etc)</label>
+            <br />
+            <input type="checkbox" name="impressions" id="impressions" />
+            <label for="impressions">Impressions</label>
+            <br />
+            <input type="checkbox" name="company" id="company" />
+            <label for="company">Company</label>
+
+            <div>
+              <p>Do you have travel insurance?</p>
+            </div>
+            <input type="radio" name="insurance" id="yes" value="yes" />
+            <label for="yes">Yes</label>
+            <br />
+            <input type="radio" name="insurance" id="no" value="no" />
+            <label for="no">No</label>
+          </fieldset>
+          <!------------------------- THIRD FIELDSET ----------------------------->
+          <fieldset>
+            <div>
+              <p>Upload your photo to make it more personal!</p>
+            </div>
+            <label for="photo">Choose photo</label>
+            <input type="file" name="photo" id="photo" />
+            <br />
+
+            <label for="comment">Leave comment</label>
+            <br />
+            <textarea name="comment" id="comment" cols="30" rows="5"></textarea>
+          </fieldset>
+          <!------------------------- BUTTON ----------------------------->
+          <div>
+            <input
+              type="button"
+              name="getStarted"
+              id="getStarted"
+              value="GET STARTED"
+            />
+          </div>
+        </form>
       </section>
     </main>
   </body>
