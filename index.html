@@ -18,25 +18,280 @@
     <main>
       <div>
         <h1>Online travel agency</h1>
-        <h2>We help travelers</h2>
       </div>
       <section>
+        <div>
+          <h2>We help travelers</h2>
+        </div>
+        <ul>
+          <li>
+            <figure>
+              <img src="/pictures/icons8-alps-128 1.png" alt="alps" />
+              <figcaption>Find YOUR adventure</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img
+                src="/pictures/icons8-security-configuration-64 1.png"
+                alt="security"
+              />
+              <figcaption>We will CARE of you</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="/pictures/icons8-love-for-money-64 1.png" alt="love" />
+              <figcaption>We will CARE of you</figcaption>
+            </figure>
+          </li>
+        </ul>
+      </section>
+      <!------------------------------------ TABLE ---------------------------------------->
+      <section>
+        <div>
+          <h2>Choose your plan</h2>
+        </div>
+        <table>
+          <tr>
+            <th>Plan</th>
+            <th>Basic</th>
+            <th>Standard</th>
+            <th>Premium</th>
+          </tr>
+          <tr>
+            <th>Price</th>
+            <td>19.99$</td>
+            <td>39.99$</td>
+            <td>79.99$</td>
+          </tr>
+          <tr>
+            <th>Trip guide</th>
+            <td>
+              <figure>
+                <img
+                  src="/pictures/table/icons8-checkmark-96.png"
+                  alt="checkmark"
+                />
+              </figure>
+            </td>
+            <td>
+              <figure>
+                <img
+                  src="/pictures/table/icons8-checkmark-96.png"
+                  alt="checkmark"
+                />
+              </figure>
+            </td>
+            <td>
+              <figure>
+                <img
+                  src="/pictures/table/icons8-checkmark-96.png"
+                  alt="checkmark"
+                />
+              </figure>
+            </td>
+          </tr>
+          <tr>
+            <th>Hotel included</th>
+            <td>
+              <figure>
+                <img src="/pictures/table/icons8-delete-96.png" alt="delete" />
+              </figure>
+            </td>
+            <td>
+              <figure>
+                <img
+                  src="/pictures/table/icons8-checkmark-96.png"
+                  alt="checkmark"
+                />
+              </figure>
+            </td>
+            <td>
+              <figure>
+                <img
+                  src="/pictures/table/icons8-checkmark-96.png"
+                  alt="checkmark"
+                />
+              </figure>
+            </td>
+          </tr>
+          <tr>
+            <th>Personal coach</th>
+            <td>
+              <figure>
+                <img src="/pictures/table/icons8-delete-96.png" alt="delete" />
+              </figure>
+            </td>
+            <td>
+              <figure>
+                <img src="/pictures/table/icons8-delete-96.png" alt="delete" />
+              </figure>
+            </td>
+            <td>
+              <figure>
+                <img
+                  src="/pictures/table/icons8-checkmark-96.png"
+                  alt="checkmark"
+                />
+              </figure>
+            </td>
+          </tr>
+        </table>
+      </section>
+      <!----------------------------------------------- FORM --------------------------------------------------->
+      <section>
+        <div>
+          <h2>Get started absolutely free</h2>
+        </div>
+        <form>
+          <div>
+            <h3>Tell us about yourself</h3>
+          </div>
+          <!------------------------- FIRST FIELDSET ----------------------------->
+          <fieldset>
+            <div>
+              <label for="name">Full name <span>*</span></label>
+              <br />
+              <input type="text" name="name" id="name" />
+            </div>
+
+            <div>
+              <label for="email">Email <span>*</span></label>
+              <br />
+              <input type="text" name="email" id="email" />
+            </div>
+
+            <div>
+              <label for="phoneNumber">Phone number <span>*</span></label>
+              <br />
+              <input type="text" name="phoneNumber" id="phoneNumber" />
+            </div>
+
+            <div>
+              <label for="date">Date of birth <span>*</span></label>
+              <br />
+              <input type="text" name="date" id="date" />
+            </div>
+
+            <div>
+              <label for="personalId">Personal ID <span>*</span></label>
+              <br />
+              <input type="text" name="personalId" id="personalId" />
+            </div>
+          </fieldset>
+          <!------------------------- SECOND FIELDSET ----------------------------->
+          <fieldset>
+            <div>
+              <p>What kind of traveler are you?</p>
+            </div>
+            <select name="traveler" id="traveler">
+              <option value="business">Business</option>
+              <option value="solo">Solo</option>
+              <option value="family">Family</option>
+              <option value="group">Group</option>
+            </select>
+
+            <div>
+              <p>What is important for you?</p>
+            </div>
+            <input type="checkbox" name="comfort" id="comfort" />
+            <label for="comfort">Comfort (hotel, food, etc)</label>
+            <br />
+            <input type="checkbox" name="impressions" id="impressions" />
+            <label for="impressions">Impressions</label>
+            <br />
+            <input type="checkbox" name="company" id="company" />
+            <label for="company">Company</label>
+
+            <div>
+              <p>Do you have travel insurance?</p>
+            </div>
+            <input type="radio" name="insurance" id="yes" value="yes" />
+            <label for="yes">Yes</label>
+            <br />
+            <input type="radio" name="insurance" id="no" value="no" />
+            <label for="no">No</label>
+          </fieldset>
+          <!------------------------- THIRD FIELDSET ----------------------------->
+          <fieldset>
+            <div>
+              <p>Upload your photo to make it more personal!</p>
+            </div>
+            <label for="photo">Choose photo</label>
+            <input type="file" name="photo" id="photo" />
+            <br />
+
+            <label for="comment">Leave comment</label>
+            <br />
+            <textarea name="comment" id="comment" cols="30" rows="5"></textarea>
+          </fieldset>
+          <!------------------------- BUTTON ----------------------------->
+          <div>
+            <input
+              type="button"
+              name="getStarted"
+              id="getStarted"
+              value="GET STARTED"
+            />
+          </div>
+        </form>
+      </section>
+      <section>
+        <div>
+          <h2>Our coaches</h2>
+        </div>
         <figure>
-          <img src="/pictures/icons8-alps-128 1.png" alt="alps" />
-          <figcaption>Find YOUR adventure</figcaption>
+          <img
+            src="/pictures/coaches/pexels-andrea-piacquadio-774909 1.png"
+            alt="Marta"
+          />
         </figure>
         <figure>
           <img
-            src="/pictures/icons8-security-configuration-64 1.png"
-            alt="security"
+            src="/pictures/coaches/pexels-mentatdgt-1024311 1.png"
+            alt="Carol"
           />
-          <figcaption>We will CARE of you</figcaption>
         </figure>
         <figure>
-          <img src="/pictures/icons8-love-for-money-64 1.png" alt="love" />
-          <figcaption>We will CARE of you</figcaption>
+          <img
+            src="/pictures/coaches/pexels-clem-onojeghuo-211050 1.png"
+            alt="Marta"
+          />
         </figure>
+        <!------------------------------------- BOTTOM TABLE ----------------------------------------->
+        <table>
+          <tr>
+            <td></td>
+            <th>Marta</th>
+            <th>Carol</th>
+            <th>John</th>
+          </tr>
+          <tr>
+            <th>Years of expirience</th>
+            <td>7</td>
+            <td>10</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <th>Numbers of countries</th>
+            <td>32</td>
+            <td>41</td>
+            <td>37</td>
+          </tr>
+          <tr>
+            <th>Passion</th>
+            <td>Extreme and hiking</td>
+            <td>Family adventure</td>
+            <td>The beauty of the cities</td>
+          </tr>
+        </table>
       </section>
     </main>
+    <footer>
+      <div>
+        <p>Rest assured you are in the hands of professionals</p>
+      </div>
+    </footer>
   </body>
 </html>
