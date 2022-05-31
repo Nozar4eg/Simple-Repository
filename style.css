@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+  text-decoration: none;
+  list-style: none;
+}
+
+/* ---------------------------------------------------- FIRST BLOCK ---------------------------------------------------- */
+.header {
+  background-color: white;
+  height: 80px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-links {
+  display: flex;
+  gap: 65px;
+  margin-top: 19px;
+  margin-right: 40px;
+}
+
+.nav-link {
+  color: black;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Roboto";
+}
+
+.cont-h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.cont-h1 h1 {
+  margin-top: 186px;
+  font-size: 32px;
+  color: white;
+}
+
+.cont-h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 31px;
+}
+
+.cont-h2 h2 {
+  color: white;
+  font-size: 70px;
+}
+
+.section-1-links {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 69px;
+}
+
+.section-1-link {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 300px;
+  height: 380px;
+  color: black;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 43px;
+  background-color: white;
+  padding-top: 46px;
+}
+
+.section-1-background-img {
+  background-image: url(/pictures/backgrounds/section-1-background.png);
+  background-repeat: no-repeat;
+  background-position: center 0;
+}
+
+.section-1-background-color {
+  background-color: #e0ebe6;
+  padding-bottom: 79px;
+}
+
+/* ---------------------------------------------------- TABLE ---------------------------------------------------- */
