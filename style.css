@@ -7,6 +7,11 @@
   list-style: none;
 }
 
+.wrapper {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
 /* ---------------------------------------------------- FIRST BLOCK ---------------------------------------------------- */
 .header {
   background-color: white;
@@ -29,12 +34,12 @@
   font-family: "Roboto", sans-serif;
 }
 
-.cont-h1 {
+.section-1-cont-h1 {
   display: flex;
   justify-content: center;
 }
 
-.cont-h1 h1 {
+.section-1-cont-h1 h1 {
   margin-top: 186px;
   font-size: 32px;
   color: white;
@@ -106,7 +111,7 @@
   margin: 86px auto 0 auto;
   border-collapse: collapse;
   box-shadow: 0px 4px 4px 0px #00000040;
-  width: 1000px;
+  width: 69.4%;
   height: 480px;
   background: linear-gradient(
     to right,
@@ -136,4 +141,159 @@ td {
 .left-column {
   font-size: 24px;
   font-weight: 700;
+}
+
+/* ---------------------------------------------------- FORM ---------------------------------------------------- */
+
+fieldset {
+  border: none;
+}
+
+.section-3-background-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #024153;
+  padding-bottom: 68px;
+}
+
+.section-3-cont-h2 {
+  color: white;
+  margin-top: 48px;
+}
+
+.section-3-cont-h2 h2,
+h3 {
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.section-3-cont-h3 {
+  margin-top: 43px;
+  margin-left: 64px;
+}
+
+.form {
+  margin-top: 53px;
+  background-color: white;
+
+  width: 92%;
+}
+
+.cont-for-fsets {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 38px 20px 0 20px;
+  gap: 20px;
+}
+
+.fset-1 span {
+  color: #ff0000;
+}
+
+.fset-1 div {
+  margin-bottom: 13px;
+}
+
+.fset-1 div:last-child {
+  margin-bottom: 0;
+}
+
+.fset-2 div:nth-of-type(1) {
+  margin-bottom: 13px;
+}
+
+.fset-2 div:nth-of-type(2) {
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+
+.fset-2 div:nth-of-type(6) {
+  margin-bottom: 16px;
+}
+
+.input-label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.fset-2 div:nth-of-type(8) {
+  margin-bottom: 0;
+}
+
+.label-upload {
+  margin-top: 39px;
+  margin-bottom: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 27px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #03afe0;
+}
+
+.label-upload label {
+  border-bottom: solid 4px #03afe0;
+}
+
+#photo {
+  display: none;
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+  border: solid 1px #585858;
+  background-color: white;
+}
+
+#getStarted {
+  font-size: 24px;
+  padding: 18px 0;
+  background-color: #03afe0;
+  color: white;
+  border: none;
+  width: 100%;
+  margin-top: 38px;
+  margin-bottom: 30px;
+}
+
+.question {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#name,
+#email,
+#phoneNumber,
+#date,
+#personalId {
+  width: 278px;
+  height: 39px;
+}
+
+#traveler {
+  font-size: 24px;
+  width: 362px;
+  height: 39.18px;
+}
+
+#comfort + label,
+#impressions + label,
+#company + label,
+#yes + label,
+#no + label {
+  font-size: 24px;
+}
+
+#comfort,
+#impressions,
+#company,
+#yes,
+#no {
+  width: 25px;
+  height: 25.12px;
 }
