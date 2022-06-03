@@ -8,6 +8,7 @@
 }
 
 .wrapper {
+  position: relative;
   margin: 0 auto;
   max-width: 1440px;
 }
@@ -49,10 +50,10 @@
   display: flex;
   justify-content: center;
   margin-top: 31px;
+  color: white;
 }
 
 .cont-h2 h2 {
-  color: white;
   font-size: 70px;
 }
 
@@ -100,10 +101,10 @@
 
 .section-2-cont-h2 {
   margin-top: 86px;
+  color: white;
 }
 
 .section-2-cont-h2 h2 {
-  color: white;
   font-size: 70px;
 }
 
@@ -124,7 +125,7 @@
   );
 }
 .table th,
-td {
+.table td {
   border: 1px solid black;
   width: 25%;
   height: 20%;
@@ -325,4 +326,78 @@ h3 {
   width: 25px;
   height: 25.12px;
   margin-right: 8px;
+}
+
+/* ---------------------------------------------------- COACHES ---------------------------------------------------- */
+
+.section-4-background-color {
+  background-color: #bbc3c2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 193px;
+}
+
+.section-4-cont-h2 {
+  margin-top: 54px;
+  color: white;
+}
+
+.section-4-cont-h2 h2 {
+  font-size: 70px;
+}
+
+.coaches {
+  margin-top: 55px;
+  margin-bottom: 34px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 86%;
+}
+
+/* ---------------------------------------------------- BOTTOM TABLE ---------------------------------------------------- */
+
+.bottom-table {
+  background-color: white;
+  border-collapse: collapse;
+  border-radius: 25px;
+  width: 86%;
+  height: 224px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.tbl-bottom-hline {
+  border-bottom: solid 1px;
+}
+
+.tbl-bottom-vline {
+  border-right: solid 1px;
+}
+
+.coach-name {
+  font-size: 24px;
+}
+
+.bottom-table td {
+  font-size: 22px;
+}
+
+/* ---------------------------------------------------- MINI-FOOTER =) ---------------------------------------------------- */
+
+.mini-footer {
+  display: flex;
+  bottom: 51px;
+  position: absolute;
+  width: 47%;
+  height: 84px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.mini-footer p {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
 }
