@@ -149,6 +149,10 @@ fieldset {
   border: none;
 }
 
+fieldset p {
+  color: black;
+}
+
 .section-3-background-img {
   display: flex;
   flex-direction: column;
@@ -176,11 +180,11 @@ h3 {
 .form {
   margin-top: 53px;
   background-color: white;
-
   width: 92%;
 }
 
 .cont-for-fsets {
+  color: #585858;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -216,10 +220,10 @@ h3 {
 .input-label {
   display: flex;
   align-items: center;
-  margin-bottom: 16px;
+  margin-top: 16px;
 }
 
-.fset-2 div:nth-of-type(8) {
+.fset-2 div:nth-of-type(9) {
   margin-bottom: 0;
 }
 
@@ -250,6 +254,11 @@ h3 {
   background-color: white;
 }
 
+#comment {
+  border: 1px solid #585858;
+  resize: none;
+}
+
 #getStarted {
   font-size: 24px;
   padding: 18px 0;
@@ -276,9 +285,28 @@ h3 {
 }
 
 #traveler {
+  appearance: none;
+  border: #585858 solid 1px;
+  color: #585858;
   font-size: 24px;
+  padding-left: 22px;
   width: 362px;
   height: 39.18px;
+}
+
+.select-cont {
+  position: relative;
+}
+
+.down-arrow {
+  right: 12px;
+  top: 10.5px;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 16px 10px 0 10px;
+  border-color: #585858 transparent transparent transparent;
 }
 
 #comfort + label,
@@ -296,4 +324,5 @@ h3 {
 #no {
   width: 25px;
   height: 25.12px;
+  margin-right: 8px;
 }
