@@ -362,11 +362,11 @@
     font-weight: 700;
   }
 
-  .bottom-table__tbl-bottom-hline {
+  .bottom-table__bottom-hline {
     border-bottom: solid 1px;
   }
 
-  .bottom-table__tbl-bottom-vline {
+  .bottom-table__bottom-vline {
     border-right: solid 1px;
   }
 
