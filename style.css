@@ -380,21 +380,21 @@
     width: 86%;
   }
 
-  .coaches img {
+  .coaches__img {
     width: 20vw;
   }
 
   /* ---------------------------------------------------- BOTTOM TABLE ---------------------------------------------------- */
 
   .bottom-table {
+    table-layout: fixed;
     background-color: white;
     border-collapse: collapse;
-    border-radius: 25px;
-    width: 90%;
-    height: 224px;
+    border-radius: 15px;
+    width: 96%;
     text-align: center;
-    font-size: 3.8vw;
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 12px;
   }
 
   .bottom-table__bottom-hline {
@@ -403,11 +403,12 @@
 
   .bottom-table__bottom-vline {
     border-right: solid 1px;
+    padding: 0 5px;
   }
 
   .bottom-table__td {
-    padding: 0 10px;
-    font-size: 3.2vw;
+    height: 90px;
+    padding: 0 5px;
   }
 
   /* ---------------------------------------------------- MINI-FOOTER =) ---------------------------------------------------- */
@@ -424,13 +425,13 @@
     background-color: white;
     justify-content: center;
     align-items: center;
-    padding: 0 10px;
   }
 
   .mini-footer__text {
+    padding: 0 10px;
     text-align: center;
-    font-size: 2.5vw;
-    font-weight: 700;
+    font-size: 14px;
+    font-weight: 600;
   }
 }
 
