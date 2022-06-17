@@ -14,32 +14,42 @@
   </head>
   <body>
     <div class="wrapper">
+      <!------------------------------------ FIRST BLOCK ---------------------------------------->
       <header class="header">
-        <nav>
-          <ul class="nav-links">
-            <li><a class="nav-link" href="/">Home</a></li>
-            <li><a class="nav-link" href="/">FAQ</a></li>
-            <li><a class="nav-link" href="/">Contact us</a></li>
+        <nav class="navigation">
+          <ul class="navigation__cont">
+            <li class="navigation__li">
+              <a class="navigation__link" href="/">Home</a>
+            </li>
+            <li class="navigation__li">
+              <a class="navigation__link" href="/">FAQ</a>
+            </li>
+            <li class="navigation__li">
+              <a class="navigation__link" href="/">Contact us</a>
+            </li>
           </ul>
         </nav>
       </header>
       <main>
-        <!------------------------------------ FIRST BLOCK ---------------------------------------->
-        <div class="section-1-background-color">
-          <div class="section-1-background-img">
-            <div class="section-1-cont-h1">
-              <h1>ONLINE TRAVEL AGENCY</h1>
+        <div class="sub-section-1">
+          <div class="section-1">
+            <div class="cont-h1">
+              <h1 class="cont-h1__h1">ONLINE TRAVEL AGENCY</h1>
             </div>
             <section>
               <div class="cont-h2">
-                <h2>We help travelers</h2>
+                <h2 class="cont-h2__h2">We help travelers</h2>
               </div>
-              <ul class="section-1-links">
-                <li>
-                  <a class="section-1-link" href="/">
-                    <figure>
-                      <img src="/pictures/icons8-alps-128 1.png" alt="alps" />
-                      <figcaption>
+              <ul class="links">
+                <li class="links__li">
+                  <a class="links__link" href="/">
+                    <figure class="links__figure">
+                      <img
+                        class="links__img"
+                        src="/pictures/icons8-alps-128 1.png"
+                        alt="alps"
+                      />
+                      <figcaption class="links__description">
                         <p>Find</p>
                         <p>YOUR</p>
                         <p>adventure</p>
@@ -47,14 +57,15 @@
                     </figure>
                   </a>
                 </li>
-                <li>
-                  <a class="section-1-link" href="/">
-                    <figure>
+                <li class="links__li">
+                  <a class="links__link" href="/">
+                    <figure class="links__figure">
                       <img
+                        class="links__img"
                         src="/pictures/icons8-security-configuration-64 1.png"
                         alt="security"
                       />
-                      <figcaption>
+                      <figcaption class="links__description">
                         <p>We will</p>
                         <p>CARE</p>
                         <p>of you</p>
@@ -62,14 +73,15 @@
                     </figure>
                   </a>
                 </li>
-                <li>
-                  <a class="section-1-link" href="/">
-                    <figure>
+                <li class="links__li">
+                  <a class="links__link" href="/">
+                    <figure class="links__figure">
                       <img
+                        class="links__img"
                         src="/pictures/icons8-love-for-money-64 1.png"
                         alt="love"
                       />
-                      <figcaption>
+                      <figcaption class="links__description">
                         <p>And</p>
                         <p>SAVE</p>
                         <p>your money</p>
@@ -82,38 +94,36 @@
           </div>
         </div>
         <!------------------------------------ TABLE ---------------------------------------->
-        <section class="section-2-background-img">
-          <div class="section-2-cont-h2">
-            <h2>Choose your plan</h2>
-          </div>
-          <table class="table">
+        <section class="section-2">
+          <h2 class="section-2__h2">Choose your plan</h2>
+          <table class="section-2__table table">
             <tr>
-              <th class="left-column">Plan</th>
-              <th class="plan">Basic</th>
-              <th class="plan">Standard</th>
-              <th class="plan">Premium</th>
+              <th class="table__left-column table__cell-size">Plan</th>
+              <th class="table__plan table__cell-size">Basic</th>
+              <th class="table__plan table__cell-size">Standard</th>
+              <th class="table__plan table__cell-size">Premium</th>
             </tr>
             <tr>
-              <th class="left-column">Price</th>
-              <td class="price">19.99$</td>
-              <td class="price">39.99$</td>
-              <td class="price">79.99$</td>
+              <th class="table__left-column table__cell-size">Price</th>
+              <td class="table__price table__cell-size">19.99$</td>
+              <td class="table__price table__cell-size">39.99$</td>
+              <td class="table__price table__cell-size">79.99$</td>
             </tr>
             <tr>
-              <th class="left-column">Trip guide</th>
-              <td>
+              <th class="table__left-column table__cell-size">Trip guide</th>
+              <td class="table__cell-size">
                 <img
                   src="/pictures/table/icons8-checkmark-96.png"
                   alt="checkmark"
                 />
               </td>
-              <td>
+              <td class="table__cell-size">
                 <img
                   src="/pictures/table/icons8-checkmark-96.png"
                   alt="checkmark"
                 />
               </td>
-              <td>
+              <td class="table__cell-size">
                 <img
                   src="/pictures/table/icons8-checkmark-96.png"
                   alt="checkmark"
@@ -121,17 +131,19 @@
               </td>
             </tr>
             <tr>
-              <th class="left-column">Hotel included</th>
-              <td>
+              <th class="table__left-column table__cell-size">
+                Hotel included
+              </th>
+              <td class="table__cell-size">
                 <img src="/pictures/table/icons8-delete-96.png" alt="delete" />
               </td>
-              <td>
+              <td class="table__cell-size">
                 <img
                   src="/pictures/table/icons8-checkmark-96.png"
                   alt="checkmark"
                 />
               </td>
-              <td>
+              <td class="table__cell-size">
                 <img
                   src="/pictures/table/icons8-checkmark-96.png"
                   alt="checkmark"
@@ -139,14 +151,16 @@
               </td>
             </tr>
             <tr>
-              <th class="left-column">Personal coach</th>
-              <td>
+              <th class="table__left-column table__cell-size">
+                Personal coach
+              </th>
+              <td class="table__cell-size">
                 <img src="/pictures/table/icons8-delete-96.png" alt="delete" />
               </td>
-              <td>
+              <td class="table__cell-size">
                 <img src="/pictures/table/icons8-delete-96.png" alt="delete" />
               </td>
-              <td>
+              <td class="table__cell-size">
                 <img
                   src="/pictures/table/icons8-checkmark-96.png"
                   alt="checkmark"
@@ -156,55 +170,96 @@
           </table>
         </section>
         <!----------------------------------------------- FORM --------------------------------------------------->
-        <section class="section-3-background-img">
-          <div class="section-3-cont-h2">
-            <h2>Get started absolutely free</h2>
+        <section class="section-3">
+          <div class="cont-h2">
+            <h2 class="cont-h2__h2 cont-h2__h2_mt-48">
+              Get started absolutely free
+            </h2>
           </div>
-          <form class="form">
-            <div class="section-3-cont-h3">
-              <h3>Tell us about yourself</h3>
+          <form class="section-3__form form">
+            <div class="cont-h3">
+              <h3 class="cont-h3__h3">Tell us about yourself</h3>
             </div>
             <!------------------------- FIRST FIELDSET ----------------------------->
-            <div class="cont-for-fsets">
+            <div class="section-3__cont-for-fsets cont-for-fsets">
               <fieldset class="fset-1">
-                <div>
-                  <label for="name">Full name <span>*</span></label>
+                <div class="fset-1__cont-input">
+                  <label for="name"
+                    >Full name <span class="fset-1__star">*</span></label
+                  >
                   <br />
-                  <input type="text" name="name" id="name" />
+                  <input
+                    class="fset-1__input"
+                    type="text"
+                    name="name"
+                    id="name"
+                  />
                 </div>
 
-                <div>
-                  <label for="email">Email <span>*</span></label>
+                <div class="fset-1__cont-input">
+                  <label for="email"
+                    >Email <span class="fset-1__star">*</span></label
+                  >
                   <br />
-                  <input type="text" name="email" id="email" />
+                  <input
+                    class="fset-1__input"
+                    type="text"
+                    name="email"
+                    id="email"
+                  />
                 </div>
 
-                <div>
-                  <label for="phoneNumber">Phone number <span>*</span></label>
+                <div class="fset-1__cont-input">
+                  <label for="phoneNumber"
+                    >Phone number <span class="fset-1__star">*</span></label
+                  >
                   <br />
-                  <input type="text" name="phoneNumber" id="phoneNumber" />
+                  <input
+                    class="fset-1__input"
+                    type="text"
+                    name="phoneNumber"
+                    id="phoneNumber"
+                  />
                 </div>
 
-                <div>
-                  <label for="date">Date of birth <span>*</span></label>
+                <div class="fset-1__cont-input">
+                  <label for="date"
+                    >Date of birth <span class="fset-1__star">*</span></label
+                  >
                   <br />
-                  <input type="text" name="date" id="date" />
+                  <input
+                    class="fset-1__input"
+                    type="text"
+                    name="date"
+                    id="date"
+                  />
                 </div>
 
-                <div>
-                  <label for="personalId">Personal ID <span>*</span></label>
+                <div class="fset-1__cont-input">
+                  <label for="personalId"
+                    >Personal ID <span class="fset-1__star">*</span></label
+                  >
                   <br />
-                  <input type="text" name="personalId" id="personalId" />
+                  <input
+                    class="fset-1__input"
+                    type="text"
+                    name="personalId"
+                    id="personalId"
+                  />
                 </div>
               </fieldset>
               <!------------------------- SECOND FIELDSET ----------------------------->
               <fieldset class="fset-2">
-                <div>
-                  <p class="question">What kind of traveler are you?</p>
+                <div class="fset-2__cont-question">
+                  <p class="fset-2__question">What kind of traveler are you?</p>
                 </div>
-                <div class="select-cont">
-                  <div class="down-arrow"></div>
-                  <select name="traveler" id="traveler">
+                <div class="fset-2__select-cont">
+                  <div class="fset-2__down-arrow"></div>
+                  <select
+                    class="fset-2__traveler"
+                    name="traveler"
+                    id="traveler"
+                  >
                     <option value="business">Business</option>
                     <option value="solo">Solo</option>
                     <option value="family">Family</option>
@@ -213,49 +268,86 @@
                 </div>
 
                 <div>
-                  <p class="question">What is important for you?</p>
+                  <p class="fset-2__question">What is important for you?</p>
                 </div>
-                <div class="input-label">
-                  <input type="checkbox" name="comfort" id="comfort" />
-                  <label for="comfort">Comfort (hotel, food, etc)</label>
+                <div class="fset-2__input-label">
+                  <input
+                    class="fset-2__checkbox"
+                    type="checkbox"
+                    name="comfort"
+                    id="comfort"
+                  />
+                  <label class="fset-2__options" for="comfort"
+                    >Comfort (hotel, food, etc)</label
+                  >
                 </div>
 
-                <div class="input-label">
-                  <input type="checkbox" name="impressions" id="impressions" />
-                  <label for="impressions">Impressions</label>
+                <div class="fset-2__input-label">
+                  <input
+                    class="fset-2__checkbox"
+                    type="checkbox"
+                    name="impressions"
+                    id="impressions"
+                  />
+                  <label class="fset-2__options" for="impressions"
+                    >Impressions</label
+                  >
                 </div>
-                <div class="input-label">
-                  <input type="checkbox" name="company" id="company" />
-                  <label for="company">Company</label>
+                <div class="fset-2__input-label fset-2__input-label-mb-16">
+                  <input
+                    class="fset-2__checkbox"
+                    type="checkbox"
+                    name="company"
+                    id="company"
+                  />
+                  <label class="fset-2__options" for="company">Company</label>
                 </div>
                 <div>
-                  <p class="question">Do you have travel insurance?</p>
+                  <p class="fset-2__question">Do you have travel insurance?</p>
                 </div>
-                <div class="input-label">
-                  <input type="radio" name="insurance" id="yes" value="yes" />
-                  <label for="yes">Yes</label>
+                <div class="fset-2__input-label">
+                  <input
+                    class="fset-2__checkbox"
+                    type="radio"
+                    name="insurance"
+                    id="yes"
+                    value="yes"
+                  />
+                  <label class="fset-2__options" for="yes">Yes</label>
                 </div>
-                <div class="input-label">
-                  <input type="radio" name="insurance" id="no" value="no" />
-                  <label for="no">No</label>
+                <div class="fset-2__input-label">
+                  <input
+                    class="fset-2__checkbox"
+                    type="radio"
+                    name="insurance"
+                    id="no"
+                    value="no"
+                  />
+                  <label class="fset-2__options" for="no">No</label>
                 </div>
               </fieldset>
               <!------------------------- THIRD FIELDSET ----------------------------->
               <fieldset class="fset-3">
                 <div>
-                  <p class="question">
+                  <p class="fset-3__upload-photo">
                     Upload your photo to make it<br />more personal!
                   </p>
                 </div>
-                <div class="label-upload">
-                  <label for="photo">Choose photo</label>
-                  <div class="square"></div>
-                  <input type="file" name="photo" id="photo" />
+                <div class="fset-3__label-upload">
+                  <label class="fset-3__choose" for="photo">Choose photo</label>
+                  <div class="fset-3__square"></div>
+                  <input
+                    class="fset-3__photo"
+                    type="file"
+                    name="photo"
+                    id="photo"
+                  />
                 </div>
 
                 <label for="comment">Leave comment</label>
                 <br />
                 <textarea
+                  class="fset-3__comment"
                   name="comment"
                   id="comment"
                   cols="45"
@@ -264,6 +356,7 @@
                 <!------------------------- BUTTON ----------------------------->
                 <div>
                   <input
+                    class="fset-3__getStarted"
                     type="submit"
                     name="getStarted"
                     id="getStarted"
@@ -275,25 +368,26 @@
           </form>
         </section>
         <!------------------------------------------- COACHES ----------------------------------------------->
-        <section class="section-4-background-color">
-          <div class="section-4-cont-h2">
-            <h2>Our coaches</h2>
-          </div>
-          <div class="coaches">
+        <section class="section-4">
+          <h2 class="section-4__h2">Our coaches</h2>
+          <div class="section-4__coaches coaches">
             <figure>
               <img
+                class="coaches__img"
                 src="/pictures/coaches/pexels-andrea-piacquadio-774909 1.png"
                 alt="Marta"
               />
             </figure>
             <figure>
               <img
+                class="coaches__img"
                 src="/pictures/coaches/pexels-mentatdgt-1024311 1.png"
                 alt="Carol"
               />
             </figure>
             <figure>
               <img
+                class="coaches__img"
                 src="/pictures/coaches/pexels-clem-onojeghuo-211050 1.png"
                 alt="John"
               />
@@ -301,38 +395,41 @@
           </div>
           <!------------------------------------- BOTTOM TABLE ----------------------------------------->
           <table class="bottom-table">
-            <tr class="tbl-bottom-hline coach-name" coach-name>
-              <td class="tbl-bottom-vline"></td>
+            <tr
+              class="bottom-table__bottom-hline bottom-table__coach-name"
+              coach-name
+            >
+              <td class="bottom-table__bottom-vline bottom-table__td"></td>
               <th>Marta</th>
               <th>Carol</th>
               <th>John</th>
             </tr>
-            <tr class="tbl-bottom-hline">
-              <th class="tbl-bottom-vline">Years of expirience</th>
-              <td>7</td>
-              <td>10</td>
-              <td>4</td>
+            <tr class="bottom-table__bottom-hline">
+              <th class="bottom-table__bottom-vline">Years of expirience</th>
+              <td class="bottom-table__td">7</td>
+              <td class="bottom-table__td">10</td>
+              <td class="bottom-table__td">4</td>
             </tr>
-            <tr class="tbl-bottom-hline">
-              <th class="tbl-bottom-vline">Numbers of countries</th>
-              <td>32</td>
-              <td>41</td>
-              <td>37</td>
+            <tr class="bottom-table__bottom-hline">
+              <th class="bottom-table__bottom-vline">Numbers of countries</th>
+              <td class="bottom-table__td">32</td>
+              <td class="bottom-table__td">41</td>
+              <td class="bottom-table__td">37</td>
             </tr>
             <tr>
-              <th class="tbl-bottom-vline">Passion</th>
-              <td>Extreme and hiking</td>
-              <td>Family adventure</td>
-              <td>The beauty of the cities</td>
+              <th class="bottom-table__bottom-vline">Passion</th>
+              <td class="bottom-table__td">Extreme and hiking</td>
+              <td class="bottom-table__td">Family adventure</td>
+              <td class="bottom-table__td">The beauty of the cities</td>
             </tr>
           </table>
         </section>
       </main>
       <!------------------------------------- MINI-FOOTER =) ----------------------------------------->
-      <footer class="mini-footer">
-        <div>
-          <p>Rest assured you are in the hands of professionals</p>
-        </div>
+      <footer class="wrapper__mini-footer mini-footer">
+        <p class="mini-footer__text">
+          Rest assured you are in the hands of professionals
+        </p>
       </footer>
     </div>
   </body>
